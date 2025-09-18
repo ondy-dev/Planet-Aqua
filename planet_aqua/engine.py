@@ -444,10 +444,6 @@ class PlanetAquaGame:
             print("   No major decrees were issued, and the world continued")
             print("   along its current trajectory.")
         
-        print("\n" + "-" * 60)
-        print("CURRENT STATE OF THE OCEAN:")
-        print("-" * 60)
-        self.print_stats()
         print()
     
     def handle_generation_transition(self, generation: int) -> None:

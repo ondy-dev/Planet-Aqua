@@ -1,0 +1,34 @@
+id,unlock_year,requires_support,cost,name,desc,effect_money,effect_ocean_toxicity,effect_fish,effect_support,effect_pollution_growth,effect_yearly_income,is_repeatable
+plastic_bag_ban,0,20,25,Ban Single-Use Plastic Bags,"Prohibit plastic bags in stores - immediate pollution reduction but cultural resistance",0,-15,3,5,-0.15,0,False
+community_cleanup,0,0,40,Community Beach Cleanup,"Organize local cleanup efforts - visible action, boosts public support but limited long-term impact",0,-10,2,6,0.0,0,True
+river_interceptor,5,15,60,Install River Interceptors,"Deploy floating barriers to catch plastic before it reaches the ocean",0,-15,3,3,-0.05,0,False
+awareness_campaign,0,0,50,Public Awareness Campaign,"Educate citizens about plastic pollution and sustainable alternatives - research shows information alone has limited impact",0,-4,1,4,-0.05,0,True
+emergency_cleanup,0,0,80,Emergency Ocean Cleanup,"Deploy cleanup vessels to remove visible plastic debris",0,-25,2,4,0.0,0,True
+extended_producer_responsibility,10,40,140,Extended Producer Responsibility,"Make manufacturers pay for plastic waste disposal - forces design changes",0,-18,3,6,-0.30,0,False
+waste_management_upgrade,15,30,160,Upgrade Waste Management,"Build comprehensive recycling and waste collection infrastructure",0,-20,2,4,-0.25,0,False
+biodegradable_plastics_rd,20,50,240,Develop Biodegradable Plastics,"Research and develop truly biodegradable alternatives to conventional plastics",0,-5,5,2,-0.35,0,False
+global_plastic_treaty,25,70,320,Global Plastic Treaty,"Negotiate international agreement to reduce plastic production and pollution",0,-30,8,10,-0.40,0,False
+circular_economy_design,30,60,200,Circular Economy Initiative,"Redesign products for reuse and repair rather than single-use disposal",0,-25,3,7,-0.30,0,False
+heavy_ocean_cleanup,0,0,180,Heavy Ocean Cleanup,"Aggressive cleanup operations - research shows 80% cleanup can bring pollution to safe levels for marine life",0,-45,6,2,0.0,0,True
+fishing_gear_subsidies,0,0,100,Subsidize Fishing Industry,"Support fishing industry with subsidies - economic gain but increases gear pollution",20,8,-3,-1,0.0,5,True
+incineration_plants,15,25,120,Build Waste Incineration,"Burn plastic waste for energy - reduces ocean pollution but creates air emissions and health concerns",0,-18,-1,-2,0.0,0,False
+plastic_export_ban,20,35,80,Ban Plastic Waste Exports,"Stop exporting plastic waste to other countries - reduces global pollution",0,-12,2,5,-0.10,0,False
+recycling_only_approach,5,20,100,Recycling-Only Strategy,"Focus solely on improving recycling without reducing production - research shows only 9% of plastic is actually recycled globally",0,-3,0,1,-0.05,0,False
+behavioral_nudges,0,10,32,Behavioral Nudge Campaign,"Use subtle prompts to change consumer behavior without structural support - research shows limited effectiveness",0,-2,0,1,-0.02,0,True
+false_biodegradable_plastics,10,30,140,Promote False Biodegradables,"Support plastics that claim to be biodegradable but don't degrade in ocean",0,2,-1,-3,0.0,0,False
+surface_cleanup_only,0,0,120,Surface Cleanup Operations,"Focus only on removing visible pollution from ocean surface without addressing root causes - cleanup is less harmful than leaving pollution",0,-40,4,1,0.0,0,True
+ocean_plastic_collector,0,0,120,Deploy Ocean Plastic Collectors,"Deploy autonomous floating collectors to continuously remove plastic from ocean surface - proven effective for macroplastics",0,-25,3,3,0.0,0,True
+microplastic_filter,5,15,90,Install Microplastic Filters,"Install advanced filtration systems in water treatment plants to catch microplastics",0,-15,2,2,-0.10,0,True
+expand_fleet,0,0,60,Expand Fishing Fleet,"Increase fishing capacity for immediate economic gains - short-term profit, long-term harm",15,6,-4,-2,0.0,3,True
+habitat_restoration,25,50,140,Habitat Restoration Project,"Restore damaged marine ecosystems to support fish populations",0,-10,8,4,-0.05,0,True
+marine_protected,40,70,200,Create Marine Protected Areas,"Establish zones where fishing is restricted to allow ecosystem recovery",0,-8,10,5,-0.10,0,False
+ocean_restoration_tech,35,60,280,Deploy Ocean Restoration Technology,"Deploy advanced bioremediation and cleanup technologies across the ocean",0,-40,5,3,-0.20,0,True
+plastic_eating_bacteria,40,80,350,Release Plastic-Eating Bacteria,"Release genetically modified bacteria that consume plastic waste in the ocean",0,-50,3,1,-0.30,0,False
+china_plastic_agreement,15,30,150,China Plastic Production Agreement,"Negotiate with China to reduce their 32% share of global plastic production",0,-20,2,5,-0.15,0,False
+us_waste_management,10,25,110,US Waste Management Reform,"Address US's 130kg/person plastic waste - highest per capita globally",0,-15,1,3,-0.10,0,False
+southeast_asia_infrastructure,20,40,130,Southeast Asia Infrastructure,"Build waste management systems in regions with 50%+ mismanaged waste",0,-18,2,4,-0.12,0,False
+manufacturing_standards,5,15,80,Enforce Manufacturing Standards,"Require all synthetic material producers to use ocean-safe designs and materials - costly but prevents pollution at source",0,-15,4,3,-0.25,0,False
+fishing_quota_limits,0,0,40,Impose Fishing Quotas,"Limit fishing catches to protect fish populations - improves ocean health but angers fishing industry",0,0,8,-8,0.0,0,True
+emergency_tax,0,0,20,Emergency Ocean Tax,"Impose heavy taxes on polluting industries - generates money but reduces public support",50,0,0,-15,0.0,0,True
+austerity_measures,0,0,30,Implement Austerity,"Cut government spending to save money - reduces costs but hurts public services and support",0,0,0,-10,0.0,10,True
+corporate_bailout,0,0,100,Corporate Bailout,"Bail out struggling industries with public money - costs money but maintains jobs and support",-80,0,0,5,0.0,0,True

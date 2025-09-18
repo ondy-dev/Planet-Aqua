@@ -1,4 +1,4 @@
-id,year_min,year_max,era_weight,name,text,event_type,effect_money,effect_pollution,effect_fish,effect_support,effect_pollution_growth,choice_a_text,choice_a_effects,choice_b_text,choice_b_effects,choice_c_text,choice_c_effects
+id,year_min,year_max,era_weight,name,text,event_type,effect_money,effect_ocean_toxicity,effect_fish,effect_support,effect_pollution_growth,choice_a_text,choice_a_effects,choice_b_text,choice_b_effects,choice_c_text,choice_c_effects
 cheap_nets,5,15,3,The Net-Weaver's Innovation,"The fishing guilds have developed new netting techniques that promise greater catches, but these synthetic materials persist in the currents",auto,12,8,-5,0,0.0,,,,,,
 mePhone_craze,20,30,2,The Surface-Dweller's Obsession,"A new communication device has swept across the floating cities, creating a wave of disposable accessories that clutter the waters",auto,6,6,0,0,0.0,,,,,,
 pandemic_surge,35,45,2,The Great Sickness,"A mysterious illness spreads across the floating settlements, forcing increased use of protective gear that pollutes the depths",auto,0,7,-2,-5,0.0,,,,,,

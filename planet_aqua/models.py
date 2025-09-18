@@ -99,21 +99,40 @@ class Event:
             """Parse effects string into dictionary."""
             if not effects_str or effects_str.strip() == "":
                 return {}
-            effects = {}
-            # Remove outer quotes and parse key-value pairs
+            import json
+            import re
+            
+            # Clean up the string
             effects_str = effects_str.strip('"')
-            # Simple parsing for our specific format
-            pairs = effects_str.split(', ')
-            for pair in pairs:
-                if ':' in pair:
-                    key, value = pair.split(': ', 1)
-                    key = key.strip('"')
-                    value = value.strip('"')
+            
+            # Try to fix common CSV parsing issues
+            if effects_str.startswith('{') and not effects_str.endswith('}'):
+                # Try to find the end of the JSON object
+                brace_count = 0
+                for i, char in enumerate(effects_str):
+                    if char == '{':
+                        brace_count += 1
+                    elif char == '}':
+                        brace_count -= 1
+                        if brace_count == 0:
+                            effects_str = effects_str[:i+1]
+                            break
+            
+            try:
+                # Try to parse as JSON
+                return json.loads(effects_str)
+            except json.JSONDecodeError:
+                # Fallback to regex parsing for malformed JSON
+                effects = {}
+                # Look for key: value patterns
+                pattern = r'["\']?([^"\':\s]+)["\']?\s*:\s*(-?\d+(?:\.\d+)?)'
+                matches = re.findall(pattern, effects_str)
+                for key, value in matches:
                     try:
                         effects[key] = float(value)
                     except ValueError:
                         effects[key] = 0.0
-            return effects
+                return effects
         
         return cls(
             id=row["id"],
@@ -124,7 +143,7 @@ class Event:
             text=row["text"],
             event_type=row["event_type"],
             effect_money=int(row["effect_money"]),
-            effect_ocean_toxicity=int(row["effect_pollution"]),
+            effect_ocean_toxicity=int(row["effect_ocean_toxicity"]),
             effect_fish=int(row["effect_fish"]),
             effect_support=int(row["effect_support"]),
             effect_pollution_growth=float(row["effect_pollution_growth"]),

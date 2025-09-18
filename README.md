@@ -4,7 +4,7 @@
 
 ## Overview
 
-Planet Aqua is a **generational simulation game** where you play as the **Ocean Guardian**, chosen by the Council of Depths to lead this water-world. Each generation of fish-people lives for **5 years**, and you must guide Planet Aqua through **30 generations** (150 years) of challenges.
+Planet Aqua is a generational simulation game where you play as the **Ocean Guardian**, chosen by the Council of Depths to lead this water-world. Each generation of fish-people lives for 5 years, and you must guide Planet Aqua through 30 generations (150 years) of challenges.
 
 The game is presented as **The Ocean Guardian's Diary**, chronicling your decisions and their consequences across the ages. Each diary entry represents 5 years of your guardianship, with rich lore about the floating cities, fishing guilds, and the mysterious depths.
 
@@ -112,9 +112,9 @@ Each lore drop includes humorous references to our world with an aquatic twist, 
 - The Ocean's Song changing to reflect environmental distress
 
 **Research-Based Lore Drops:**
-- **The Recycling Myth**: Ocean scholars discover that only 9% of plastic waste is actually recycled globally - much lower than the 20-30% that was previously believed
-- **The Eastern Production Boom**: Distant floating cities in the eastern waters have become the world's largest producers of synthetic materials, accounting for nearly a third of global production
-- **The Western Consumption Crisis**: Floating cities in the western waters consume 130kg of synthetic materials per person annually - 2-8 times more than other regions
+- **The Recycling Myth**: Ocean scholars discover that only 9% of plastic waste is actually recycled globally
+- **The Eastern Production Boom**: Distant floating cities in the eastern waters have become the world's largest producers of synthetic materials
+- **The Western Consumption Crisis**: Floating cities in the western waters consume 130kg of synthetic materials per person annually
 - **The Cleanup Revelation**: Ocean scholars have discovered that aggressive cleanup operations are actually less harmful to marine life than leaving pollution in place
 
 ### Generational Mechanics
@@ -204,9 +204,9 @@ Unified event system with both automatic and interactive events:
 - **The World's Realization**: All floating cities unite in recognition that ocean health is essential
 
 **Research-Based Events:**
-- **The Recycling Illusion**: Ocean scholars discover that only 9% of synthetic materials are actually recycled globally - much lower than expected
-- **The Eastern Tide**: Distant floating cities in the eastern waters have become the world's largest producers of synthetic materials, accounting for nearly a third of global production
-- **The Western Excess**: Floating cities in the western waters consume 130kg of synthetic materials per person annually - 2-8 times more than other regions
+- **The Recycling Illusion**: Ocean scholars discover that only 9% of synthetic materials are actually recycled globally
+- **The Eastern Tide**: Distant floating cities in the eastern waters have become the world's largest producers of synthetic materials
+- **The Western Excess**: Floating cities in the western waters consume 130kg of synthetic materials per person annually
 - **The Cleanup Revelation**: Ocean scholars discover that aggressive cleanup operations are less harmful to marine life than leaving pollution in place
 - **The Source Revelation**: Ocean scholars realize that preventing pollution at its source is far more effective than cleaning up after it enters the ocean
 
@@ -271,24 +271,7 @@ Evidence-based policy decisions with real-world trade-offs and strategic cost ma
 
 ### Strategic Decision-Making Philosophy
 
-The game's cost structure is designed to teach real-world environmental policy decision-making:
-
-**Resource Scarcity Creates Meaningful Choices:**
-- **No Free Solutions**: Every environmental action has a cost, reflecting real-world constraints
-- **Budget Planning**: Players must save across generations for expensive but effective solutions
-- **Opportunity Cost**: Choosing one action means foregoing others - just like real policy decisions
-- **Risk Management**: Cheaper actions provide immediate relief but limited long-term impact
-
-**Cost-Benefit Analysis:**
-- **Budget Actions ($20-$50)**: Quick fixes for immediate problems, but limited effectiveness
-- **Mid-Range Actions ($60-$150)**: Balanced investment with moderate impact and reasonable cost
-- **High-Investment Actions ($160-$350)**: Powerful solutions requiring significant planning and resource allocation
-
-**Real-World Policy Lessons:**
-- **Prevention vs. Cleanup**: Upstream prevention (manufacturing standards) costs less than downstream cleanup
-- **Regional Cooperation**: International agreements (China, US) require investment but provide global benefits
-- **Technology Investment**: Cutting-edge solutions (plastic-eating bacteria) are expensive but potentially game-changing
-- **Economic Trade-offs**: Every environmental action has economic consequences that must be managed
+The game's cost structure teaches real-world environmental policy decision-making through resource scarcity, opportunity costs, and strategic planning across generations.
 
 ### Configuration (config.json)
 Tunable game balance parameters:
@@ -299,26 +282,13 @@ Tunable game balance parameters:
 
 ## Educational Value
 
-Planet Aqua teaches several important concepts:
-
-1. **Systems Thinking**: How individual decisions create complex, long-term outcomes
-2. **Evidence-Based Policy**: Learn which real-world solutions actually work vs. which don't
-3. **Trade-offs**: Every choice has both benefits and costs - some actions help short-term but hurt long-term
-4. **Public Opinion Management**: Environmental policies require public support to be effective
-5. **Time Delays**: Environmental problems develop slowly but can become irreversible
-6. **Resource Management**: Balancing immediate needs with long-term sustainability
-7. **Policy Impact**: How different approaches to environmental problems work in practice
-8. **Cost-Benefit Analysis**: Learn to identify the most effective solutions for your budget
+Planet Aqua teaches important concepts including systems thinking, evidence-based policy, trade-offs, public opinion management, time delays, resource management, and cost-benefit analysis.
 
 ## Real-World Connections
 
 The game is based on actual research about ocean plastic pollution, incorporating findings from the latest scientific studies:
 
 - **Fishing Gear**: 75-86% of the Great Pacific Garbage Patch mass comes from fishing equipment
-- **Recycling Reality**: Only 9% of plastic waste is actually recycled globally (2022 data)
-- **Regional Production**: China produces 32% of global plastics, while the US consumes 130kg per person annually
-- **Cleanup Effectiveness**: Research shows that 80% cleanup can bring pollution to safe levels for marine life
-- **Upstream Prevention**: Prevention at the source is far more effective than downstream cleanup efforts
 - **Exponential Growth**: Plastic pollution in the GPGP has been growing exponentially since 1970
 - **Microplastics**: 94% of plastic pieces by count are microplastics, but only 8% by mass
 - **Macroplastics**: 92% of plastic mass comes from larger items, mostly fishing gear
@@ -335,8 +305,6 @@ All actions in the game are based on real-world research from the latest scienti
 - **US Role in Global Ocean Plastic Waste** (2022): Documents US's 130kg/person consumption - highest globally
 - **North Pacific Garbage Patch Cleanup Study** (2025): Proves that 80% cleanup can bring pollution to safe levels for marine life
 - **Plastic Waste Behavior Meta-Analysis** (2022): Shows that information alone isn't enough - need incentives and infrastructure
-
-All actions in the game are based on real-world research:
 
 - **Extended Producer Responsibility**: Based on successful EPR programs that shift costs to manufacturers
 - **Single-Use Plastic Bans**: Proven to reduce plastic waste by up to 40% in some regions

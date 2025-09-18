@@ -481,22 +481,22 @@ class PlanetAquaGame:
             event = random.choice(available_events)
             
             if event.event_type == "interactive":
-                    self.handle_interactive_event(event)
-                else:
+                self.handle_interactive_event(event)
+            else:
                 print(f"\n📰 Generation Event: {event.name}")
-                    print(f"{event.text}")
+                print(f"{event.text}")
                 
                 # Track the event for reporting
                 self.state.last_event = event.name
                 self.state.last_event_choice = "Automatic Event"
                 
-                    self.systems.apply_effects(self.state, {
-                        "money": event.effect_money,
+                self.systems.apply_effects(self.state, {
+                    "money": event.effect_money,
                     "ocean_toxicity": event.effect_ocean_toxicity,
-                        "fish_health": event.effect_fish,
-                        "support": event.effect_support,
-                        "pollution_growth": event.effect_pollution_growth
-                    })
+                    "fish_health": event.effect_fish,
+                    "support": event.effect_support,
+                    "pollution_growth": event.effect_pollution_growth
+                })
                 print(f"Consequences: Treasury {event.effect_money:+d}, Ocean Toxicity {event.effect_ocean_toxicity:+d}, Marine Life {event.effect_fish:+d}, Public Trust {event.effect_support:+d}")
         else:
             print("The 5 years pass quietly, with no major events to report.")

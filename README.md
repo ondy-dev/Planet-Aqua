@@ -33,7 +33,7 @@ This game is grounded in real-world research about the **Great Pacific Garbage P
 
 - **Fishing Gear Focus**: A large share of floating macroplastic in Earth's garbage patches comes from fishing-related gear, which is reflected in the game's events and mechanics
 - **Recycling Reality**: Only 9% of plastic waste is actually recycled globally - the game reflects this harsh reality
-- **Regional Differences**: China produces 32% of global plastics, while the US consumes 130kg per person annually (highest globally)
+- **Regional Differences**: Eastern regions produce 32% of global plastics, while western regions consume 130kg per person annually (highest globally)
 - **Cleanup Effectiveness**: Research shows that 80% cleanup can bring pollution to safe levels for marine life
 - **Upstream Prevention**: Prevention at the source is far more effective than downstream cleanup efforts
 - **Systems Thinking**: Emphasizes how convenience culture, industrial practices, and weak governance create complex environmental problems
@@ -246,10 +246,10 @@ Evidence-based policy decisions with real-world trade-offs and strategic cost ma
 - **Subsidize Fishing Industry** ($100): Economic gain but increases gear pollution
 - **Corporate Bailout** ($100): Bail out struggling industries with public money - costs money but maintains jobs and support
 - **Recycling-Only Strategy** ($100): Focuses only on recycling without reducing production - research shows only 9% of plastic is actually recycled globally
-- **US Waste Management Reform** ($110): Address western floating cities' 130kg/person consumption - highest globally
-- **Southeast Asia Infrastructure** ($130): Build waste management systems in regions with 50%+ mismanaged waste
+- **Western Cities Waste Reform** ($110): Address western floating cities' 130kg/person consumption - highest globally
+- **Southern Regions Infrastructure** ($130): Build waste management systems in regions with high rates of mismanaged waste
 - **Extended Producer Responsibility** ($140): Make manufacturers pay for waste disposal
-- **China Plastic Production Agreement** ($150): Negotiate with eastern floating cities to reduce their 32% share of global synthetic material production
+- **Eastern Cities Production Agreement** ($150): Negotiate with eastern floating cities to reduce their massive synthetic material production
 
 **High-Investment Actions ($160-$350) - Strategic Planning Required:**
 - **Upgrade Waste Management** ($160): Comprehensive recycling infrastructure
@@ -301,8 +301,8 @@ All actions in the game are based on real-world research from the latest scienti
 
 **Key Research Sources:**
 - **Global Plastics Supply Chain Analysis** (2025): Reveals that only 9% of plastic waste is actually recycled globally
-- **China's Plastic Consumption Trends** (2025): Shows China's 32% share of global production and 76kg/person consumption
-- **US Role in Global Ocean Plastic Waste** (2022): Documents US's 130kg/person consumption - highest globally
+- **Eastern Regions Plastic Production** (2025): Shows eastern regions' 32% share of global production and 76kg/person consumption
+- **Western Regions Consumption Patterns** (2022): Documents western regions' 130kg/person consumption - highest globally
 - **North Pacific Garbage Patch Cleanup Study** (2025): Proves that 80% cleanup can bring pollution to safe levels for marine life
 - **Plastic Waste Behavior Meta-Analysis** (2022): Shows that information alone isn't enough - need incentives and infrastructure
 

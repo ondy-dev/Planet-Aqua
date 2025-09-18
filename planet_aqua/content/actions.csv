@@ -24,9 +24,9 @@ habitat_restoration,25,50,140,Habitat Restoration Project,"Restore damaged marin
 marine_protected,40,70,200,Create Marine Protected Areas,"Establish zones where fishing is restricted to allow ecosystem recovery",0,-8,10,5,-0.10,0,False
 ocean_restoration_tech,35,60,280,Deploy Ocean Restoration Technology,"Deploy advanced bioremediation and cleanup technologies across the ocean",0,-40,5,3,-0.20,0,True
 plastic_eating_bacteria,40,80,350,Release Plastic-Eating Bacteria,"Release genetically modified bacteria that consume plastic waste in the ocean",0,-50,3,1,-0.30,0,False
-china_plastic_agreement,15,30,150,China Plastic Production Agreement,"Negotiate with China to reduce their 32% share of global plastic production",0,-20,2,5,-0.15,0,False
-us_waste_management,10,25,110,US Waste Management Reform,"Address US's 130kg/person plastic waste - highest per capita globally",0,-15,1,3,-0.10,0,False
-southeast_asia_infrastructure,20,40,130,Southeast Asia Infrastructure,"Build waste management systems in regions with 50%+ mismanaged waste",0,-18,2,4,-0.12,0,False
+eastern_cities_agreement,15,30,150,Eastern Cities Production Agreement,"Negotiate with eastern floating cities to reduce their massive synthetic material production",0,-20,2,5,-0.15,0,False
+western_cities_reform,10,25,110,Western Cities Waste Reform,"Address western floating cities' excessive consumption patterns - highest per capita globally",0,-15,1,3,-0.10,0,False
+southern_regions_infrastructure,20,40,130,Southern Regions Infrastructure,"Build waste management systems in regions with high rates of mismanaged waste",0,-18,2,4,-0.12,0,False
 manufacturing_standards,5,15,80,Enforce Manufacturing Standards,"Require all synthetic material producers to use ocean-safe designs and materials - costly but prevents pollution at source",0,-15,4,3,-0.25,0,False
 fishing_quota_limits,0,0,40,Impose Fishing Quotas,"Limit fishing catches to protect fish populations - improves ocean health but angers fishing industry",0,0,8,-8,0.0,0,True
 emergency_tax,0,0,20,Emergency Ocean Tax,"Impose heavy taxes on polluting industries - generates money but reduces public support",50,0,0,-15,0.0,0,True

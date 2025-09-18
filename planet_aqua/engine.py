@@ -406,17 +406,17 @@ class PlanetAquaGame:
                 print("   reducing ocean toxicity, though some citizens are concerned about")
                 print("   the long-term ecological implications.")
                 
-            elif "China Plastic Production Agreement" in self.state.last_action:
+            elif "Eastern Cities Production Agreement" in self.state.last_action:
                 print("🌏 An agreement has been reached with eastern floating cities.")
                 print("   They have committed to reducing their massive synthetic material")
                 print("   production, which will significantly slow global pollution growth.")
                 
-            elif "US Waste Management Reform" in self.state.last_action:
-                print("🇺🇸 Western floating cities have reformed their waste management systems.")
+            elif "Western Cities Waste Reform" in self.state.last_action:
+                print("🌊 Western floating cities have reformed their waste management systems.")
                 print("   Their excessive consumption patterns are being addressed through")
                 print("   better infrastructure and citizen education programs.")
                 
-            elif "Southeast Asia Infrastructure" in self.state.last_action:
+            elif "Southern Regions Infrastructure" in self.state.last_action:
                 print("🏗️ Waste management infrastructure has been built in southern regions.")
                 print("   These areas previously had high rates of mismanaged waste, but")
                 print("   new systems are now properly containing and processing materials.")
@@ -477,22 +477,22 @@ class PlanetAquaGame:
             event = random.choice(available_events)
             
             if event.event_type == "interactive":
-                self.handle_interactive_event(event)
-            else:
+                    self.handle_interactive_event(event)
+                else:
                 print(f"\n📰 Generation Event: {event.name}")
-                print(f"{event.text}")
+                    print(f"{event.text}")
                 
                 # Track the event for reporting
                 self.state.last_event = event.name
                 self.state.last_event_choice = "Automatic Event"
                 
-                self.systems.apply_effects(self.state, {
-                    "money": event.effect_money,
+                    self.systems.apply_effects(self.state, {
+                        "money": event.effect_money,
                     "ocean_toxicity": event.effect_ocean_toxicity,
-                    "fish_health": event.effect_fish,
-                    "support": event.effect_support,
-                    "pollution_growth": event.effect_pollution_growth
-                })
+                        "fish_health": event.effect_fish,
+                        "support": event.effect_support,
+                        "pollution_growth": event.effect_pollution_growth
+                    })
                 print(f"Consequences: Treasury {event.effect_money:+d}, Ocean Toxicity {event.effect_ocean_toxicity:+d}, Marine Life {event.effect_fish:+d}, Public Trust {event.effect_support:+d}")
         else:
             print("The 5 years pass quietly, with no major events to report.")

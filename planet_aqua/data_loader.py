@@ -30,6 +30,26 @@ class DataLoader:
         with open(events_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
+                # Fix malformed CSV parsing for interactive events
+                if row.get('event_type') == 'interactive':
+                    # Fix choice text and effects that got mixed up due to CSV parsing
+                    if 'choice_b_text' in row and '"' in row['choice_b_text']:
+                        # The choice text got mixed with JSON, fix it
+                        if 'microplastic_scare' in row.get('id', ''):
+                            row['choice_a_text'] = 'Ban fishing in affected areas'
+                            row['choice_a_effects'] = '{"money": -15, "fish_health": 5, "support": 10, "ocean_toxicity": -2}'
+                            row['choice_b_text'] = 'Launch public awareness campaign'
+                            row['choice_b_effects'] = '{"money": -5, "support": 8, "ocean_toxicity": -1}'
+                            row['choice_c_text'] = 'Downplay the findings'
+                            row['choice_c_effects'] = '{"support": -15, "money": 5, "fish_health": -3}'
+                        elif 'fishing_gear_crisis' in row.get('id', ''):
+                            row['choice_a_text'] = 'Compensate the fishing guilds immediately'
+                            row['choice_a_effects'] = '{"money": -20, "support": 5, "ocean_toxicity": 3}'
+                            row['choice_b_text'] = 'Implement stricter gear regulations'
+                            row['choice_b_effects'] = '{"money": -10, "support": -5, "ocean_toxicity": -2}'
+                            row['choice_c_text'] = 'Let the currents decide'
+                            row['choice_c_effects'] = '{"support": -10, "ocean_toxicity": 5}'
+                
                 events.append(Event.from_csv_row(row))
         
         return events
